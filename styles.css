@@ -1,8 +1,8 @@
 body {
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* White text */
+    background-color: #121212;
+    color: #ffffff;
     font-family: Arial, sans-serif;
-    user-select: none; 
+    user-select: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,8 +17,8 @@ label, #timer {
 }
 
 button {
-    background-color: #0e0175; /* DodgerBlue background */
-    color: #ffffff; /* White text */
+    background-color: #0e0175;
+    color: #ffffff;
     border: none;
     padding: 15px 30px;
     font-size: 1em;
@@ -29,14 +29,13 @@ button {
 }
 
 button:hover {
-    background-color: #1c86ee; /* Slightly darker blue on hover */
+    background-color: #1c86ee;
 }
 
 button:active {
-    background-color: #187bcd; /* Even darker blue on click */
+    background-color: #187bcd;
 }
 
-/* Animated icons */
 .icon-container {
     color: blue;
     position: absolute;
@@ -60,7 +59,6 @@ button:active {
     }
 }
 
-/* CPS display */
 #cps-display {
     font-size: 2em;
     margin-top: 20px;
